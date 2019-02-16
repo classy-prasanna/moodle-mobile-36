@@ -80,7 +80,7 @@ var CoreCoursesCoursePreviewPageModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_course_providers_options_delegate__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_course_providers_course__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__core_course_providers_helper__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__core_course_providers_format_delegate__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__core_course_providers_format_delegate__ = __webpack_require__(116);
 // (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
