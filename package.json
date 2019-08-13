@@ -83,6 +83,7 @@
     "cordova-android-support-gradle-release": "2.0.1",
     "cordova-clipboard": "1.2.1",
     "cordova-ios": "4.5.5",
+    "cordova-ourcodeworld-preventscreenshots": "git+https://github.com/sdkcarlos/cordova-ourcodeworld-preventscreenshots.git",
     "cordova-plugin-app-event": "1.2.1",
     "cordova-plugin-badge": "0.8.8",
     "cordova-plugin-camera": "4.0.3",
@@ -171,7 +172,8 @@
       "nl.kingsquare.cordova.background-audio": {},
       "phonegap-plugin-push": {
         "SENDER_ID": "694767596569"
-      }
+      },
+      "com.ourcodeworld.preventscreenshots": {}
     }
   },
   "main": "desktop/electron.js",

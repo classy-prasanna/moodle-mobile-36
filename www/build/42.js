@@ -1,6 +1,6 @@
 webpackJsonp([42],{
 
-/***/ 1883:
+/***/ 1884:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__search__ = __webpack_require__(2011);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__search__ = __webpack_require__(2012);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(167);
@@ -63,7 +63,7 @@ var CoreCoursesSearchPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2011:
+/***/ 2012:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -157,7 +157,7 @@ var CoreCoursesSearchPage = /** @class */ (function () {
     };
     CoreCoursesSearchPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-courses-search',template:/*ion-inline-start:"D:\moodle-mobile-36\src\core\courses\pages\search\search.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.courses.searchcourses\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-search-box (onSubmit)="search($event)" [placeholder]="\'core.courses.search\' | translate" [searchLabel]="\'core.courses.search\' | translate" autoFocus="true" showClear="false"></core-search-box>\n\n\n\n    <div *ngIf="courses">\n\n        <ion-item-divider>{{ \'core.courses.totalcoursesearchresults\' | translate:{$a: total} }}</ion-item-divider>\n\n        <core-empty-box *ngIf="total == 0" icon="search" [message]="\'core.courses.nosearchresults\' | translate"></core-empty-box>\n\n        <core-courses-course-list-item *ngFor="let course of courses" [course]="course"></core-courses-course-list-item>\n\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMoreResults($event)" [error]="loadMoreError"></core-infinite-loading>\n\n    </div>\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"D:\moodle-mobile-36\src\core\courses\pages\search\search.html"*/,
+            selector: 'page-core-courses-search',template:/*ion-inline-start:"D:\xampp\htdocs\mobile\moodle-mobile-36\src\core\courses\pages\search\search.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.courses.searchcourses\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <core-search-box (onSubmit)="search($event)" [placeholder]="\'core.courses.search\' | translate" [searchLabel]="\'core.courses.search\' | translate" autoFocus="true" showClear="false"></core-search-box>\n\n\n\n    <div *ngIf="courses">\n\n        <ion-item-divider>{{ \'core.courses.totalcoursesearchresults\' | translate:{$a: total} }}</ion-item-divider>\n\n        <core-empty-box *ngIf="total == 0" icon="search" [message]="\'core.courses.nosearchresults\' | translate"></core-empty-box>\n\n        <core-courses-course-list-item *ngFor="let course of courses" [course]="course"></core-courses-course-list-item>\n\n        <core-infinite-loading [enabled]="canLoadMore" (action)="loadMoreResults($event)" [error]="loadMoreError"></core-infinite-loading>\n\n    </div>\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"D:\xampp\htdocs\mobile\moodle-mobile-36\src\core\courses\pages\search\search.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_courses__["a" /* CoreCoursesProvider */]])
     ], CoreCoursesSearchPage);

@@ -34,6 +34,19 @@
     document.removeEventListener = function () {
       EvTarget.prototype.removeEventListener.apply(this, arguments);
     };
+
+    document.addEventListener("deviceready", function(){
+        var successCallback = function(){
+            console.log("The screenshots are not allowed now.");
+        };
+
+        var errorCallback = function(err){
+            console.error("An error ocurred : " + err);
+        };
+
+        OurCodeWorldpreventscreenshots.disable(successCallback,errorCallback);
+    }, false);
+    
   })();
   </script>
 
