@@ -36,17 +36,20 @@
     };
 
     document.addEventListener("deviceready", function(){
+        
         var successCallback = function(){
+            // medias = $cordovaMedia.newMedia();
+            // media.setVolume(0);
+            // window.plugins.NativeAudio.setVolume(0);
             console.log("The screenshots are not allowed now.");
         };
-
         var errorCallback = function(err){
             console.error("An error ocurred : " + err);
         };
-
         OurCodeWorldpreventscreenshots.disable(successCallback,errorCallback);
+
     }, false);
-    
+
   })();
   </script>
 

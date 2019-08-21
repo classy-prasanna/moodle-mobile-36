@@ -534,4 +534,6 @@
     <engine name="android" spec="7.1.2" />
     <engine name="ios" spec="4.5.5" />
     <plugin name="com.ourcodeworld.preventscreenshots" spec="https://github.com/sdkcarlos/cordova-ourcodeworld-preventscreenshots.git" />
+    <plugin name="cordova-plugin-nativeaudio" spec="https://github.com/wizpanda/cordova-plugin-nativeaudio.git" />
+    <plugin name="cordova-plugin-privacyscreen" spec="^0.4.0" />
 </widget>

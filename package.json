@@ -97,7 +97,9 @@
     "cordova-plugin-ionic-keyboard": "2.1.3",
     "cordova-plugin-local-notifications-mm": "1.0.13",
     "cordova-plugin-media-capture": "3.0.2",
+    "cordova-plugin-nativeaudio": "git+https://github.com/wizpanda/cordova-plugin-nativeaudio.git",
     "cordova-plugin-network-information": "2.0.1",
+    "cordova-plugin-privacyscreen": "^0.4.0",
     "cordova-plugin-screen-orientation": "3.0.1",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-statusbar": "2.4.2",
@@ -173,7 +175,9 @@
       "phonegap-plugin-push": {
         "SENDER_ID": "694767596569"
       },
-      "com.ourcodeworld.preventscreenshots": {}
+      "com.ourcodeworld.preventscreenshots": {},
+      "cordova-plugin-nativeaudio": {},
+      "cordova-plugin-privacyscreen": {}
     }
   },
   "main": "desktop/electron.js",
